@@ -16,8 +16,15 @@
         font-size: 35px;
     }
     .about{
-        
+        padding-left: 20%;
     }
+    .skills{
+        margin-top: 15% ;
+        padding-left: 20%;
+    }
+
+    
+
    
 
 }
@@ -40,6 +47,16 @@
     }
     .side-menu > a > span{
         display: block;
+    }
+
+    .about{
+        padding-top: 20%;
+        padding-left: 5%;
+    }
+    .skills{
+        margin-top: 60% ;
+        padding-top: 25%;
+        padding-left: 5%;
     }
     
 
