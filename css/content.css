@@ -1,5 +1,53 @@
-.about{
-    height: 100vh;
-    margin-left: 28%;
+main{
+    background-color: #F5EFE6;
+    display: flex;
+    flex-wrap: wrap;
 }
-.network
+/*About*/
+.about, .skills{
+    padding-left: 25%;
+    padding-top: 5%;
+    height: 100vh;
+}
+.about h1{
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+.about h3{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #213059;
+}
+.about p{
+    font-size: 1.5rem;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.network ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.network ul li a{
+    color: #213059;
+    font-size: 3.5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.network ul li a:hover{
+    color: #F4AD41;
+}
+/*SKILLS*/
+ .skills-progress{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .progress{
+    margin:0.8%;
+ }
+ progress{
+    width: 20vw;
+    border: none;
+ }
+

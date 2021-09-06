@@ -7,7 +7,6 @@
     }
     .side-menu{
         width: 100px;
-
     }
     .side-menu a i {
         display: block;
@@ -16,6 +15,11 @@
         margin-left: 0;
         font-size: 35px;
     }
+    .about{
+        
+    }
+   
+
 }
 
 @media (max-width:650px){
@@ -29,21 +33,20 @@
         transition: all 0.5s;
     }
     .side-menu a i{
-        display:none
+        display:none;
     }
-    
     nav .menu-bar{
-        display: block;
+        display: inline-block;
     }
     .side-menu > a > span{
         display: block;
     }
-    .about{
-        margin
-    }
+    
 
 }
+
 
 #menu:checked ~ .side-menu{
     left:0;
 }
+
