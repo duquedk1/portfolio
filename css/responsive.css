@@ -1,0 +1,49 @@
+@media (max-width:850px){
+    .side-menu a span{
+        display: none;
+    }
+    .side-menu center{
+        display: none;
+    }
+    .side-menu{
+        width: 100px;
+
+    }
+    .side-menu a i {
+        display: block;
+        line-height: 80px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+    }
+}
+
+@media (max-width:650px){
+    
+    .side-menu{
+        margin-top: 80px;
+        text-align: center;
+        left: 100%;
+        width: 100%;
+        background-color: #213059d8;
+        transition: all 0.5s;
+    }
+    .side-menu a i{
+        display:none
+    }
+    
+    nav .menu-bar{
+        display: block;
+    }
+    .side-menu > a > span{
+        display: block;
+    }
+    .about{
+        margin
+    }
+
+}
+
+#menu:checked ~ .side-menu{
+    left:0;
+}
